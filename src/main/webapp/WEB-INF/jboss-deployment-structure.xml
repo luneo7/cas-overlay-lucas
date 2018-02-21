@@ -1,0 +1,19 @@
+<jboss-deployment-structure>
+    <deployment>
+        <dependencies>
+            <system export="true">
+                <paths>
+                    <path name="com/sun/org/apache/xml/internal/serialize"/>
+                    <path name="com/sun/org/apache/xerces/internal/parsers"/>
+                    <path name="com/sun/org/apache/xerces/internal/dom"/>
+                    <path name="com/sun/org/apache/xerces/internal/xni"/>
+                    <path name="com/sun/org/apache/xerces/internal/jaxp"/>
+                    <path name="com/sun/org/apache/xerces/internal/util"/>
+                    <path name="com/sun/org/apache/xerces/internal"/>
+                </paths>
+            </system>
+            <module name="com.sun.xml.bind" />
+            <module name="org.apache.xerces" export="true" />
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>

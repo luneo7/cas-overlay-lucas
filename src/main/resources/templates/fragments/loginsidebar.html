@@ -1,0 +1,11 @@
+<div id="sidebar">
+    <!-- <div class="sidebar-content">
+        <p th:utext="#{screen.welcome.security}"/>
+    </div> -->
+    <div id="login-token">
+        <form id="certform" th:action="@{/x509/login}" method="get">
+            <input type="hidden" name="service" th:if="${param.service != null}" th:value="${param.service}"/>
+            <input id="certificateLogin" type="submit" value="Login with Digital Certificate" />
+        </form>
+    </div>
+</div>
