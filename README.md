@@ -1,7 +1,7 @@
 CAS
 ============================
 
-Customization of CAS overlay for use of ICP-Brazil digital certificate
+Customization of CAS overlay for use of ICP-Brazil digital certificate, with SAML and OIDC configured and working.
 Original Project [here](https://apereo.github.io/cas/5.2.x/index.html).
 
 # Requirements
