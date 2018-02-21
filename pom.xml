@@ -162,7 +162,7 @@
             <artifactId>cas-server-support-ldap-core</artifactId>
             <version>${cas.version}</version>
             <scope>compile</scope>
-        </dependency>  -->    
+        </dependency>  -->
 
         <!-- uncomment it to add LDAP support -->
 
@@ -271,7 +271,7 @@
     </dependencies>
 
     <properties>
-        <cas.version>5.2.1</cas.version>
+        <cas.version>5.2.2</cas.version>
         <springboot.version>1.5.8.RELEASE</springboot.version>
         <app.server>-tomcat</app.server>
         <maven.compiler.source>1.8</maven.compiler.source>
