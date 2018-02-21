@@ -1,7 +1,7 @@
 CAS
 ============================
 
-Customization of CAS overlay for use of ICP-Brazil digital certificate, with SAML and OIDC configured and working.
+Customization of CAS overlay for use of ICP-Brazil digital certificate, with SAML, OIDC and reCAPTCHA configured and working.
 Original Project [here](https://apereo.github.io/cas/5.2.x/index.html).
 
 # Requirements
@@ -42,7 +42,7 @@ Or
 
 
 
-With the default configuration the login/password is a static list with the following credential, username casuser and password Mellon, so you might want to add a LDAP auth or another method and configure it in the cas.properties file.
+With the default configuration the login/password is a static list with the following credential, username casuser and password Mellon, so you might want to add a LDAP auth or another method and configure it in the cas.properties file. You also might want to change reCAPTCHA credentials in the cas.properties file.
 
 
 
